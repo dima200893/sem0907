@@ -1,0 +1,15 @@
+C:\git\sem0907\lesson38\bin\Debug\net6.0\lesson38.exe
+C:\git\sem0907\lesson38\bin\Debug\net6.0\lesson38.deps.json
+C:\git\sem0907\lesson38\bin\Debug\net6.0\lesson38.runtimeconfig.json
+C:\git\sem0907\lesson38\bin\Debug\net6.0\lesson38.dll
+C:\git\sem0907\lesson38\bin\Debug\net6.0\lesson38.pdb
+C:\git\sem0907\lesson38\obj\Debug\net6.0\lesson38.csproj.AssemblyReference.cache
+C:\git\sem0907\lesson38\obj\Debug\net6.0\lesson38.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\sem0907\lesson38\obj\Debug\net6.0\lesson38.AssemblyInfoInputs.cache
+C:\git\sem0907\lesson38\obj\Debug\net6.0\lesson38.AssemblyInfo.cs
+C:\git\sem0907\lesson38\obj\Debug\net6.0\lesson38.csproj.CoreCompileInputs.cache
+C:\git\sem0907\lesson38\obj\Debug\net6.0\lesson38.dll
+C:\git\sem0907\lesson38\obj\Debug\net6.0\refint\lesson38.dll
+C:\git\sem0907\lesson38\obj\Debug\net6.0\lesson38.pdb
+C:\git\sem0907\lesson38\obj\Debug\net6.0\lesson38.genruntimeconfig.cache
+C:\git\sem0907\lesson38\obj\Debug\net6.0\ref\lesson38.dll
