@@ -2,20 +2,20 @@
 
 int[]numbers=new int[size];
 
-int count=0;
+int summ=0;
 
 FillArray(numbers);
 PrintArray(numbers);
 
 for(int i=0;i < numbers.Length; i++)
 {
-    if(numbers[i]%2==0)
+    if(i%2!=0)
     {
-        count++;
+        summ= summ + numbers[i];
     }
 }
 
-Console.WriteLine($"В данном массиве количетсво четных чисел = " + (count));
+Console.WriteLine($"->{summ}");
 
 
 
@@ -37,7 +37,7 @@ void FillArray (int[] array)
 {
     for(int i=0;i< array.Length; i++)
     {
-        array[i]= new Random().Next(99,1000);
+        array[i]= new Random().Next(-10,10);
     }
 }
 
