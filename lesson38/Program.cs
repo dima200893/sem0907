@@ -1,14 +1,14 @@
 ﻿int size= InputInt("Введите размер массива  ");
 
-int[]numbers=new int[size];
+double[]numbers=new double[size];
 
-int diff=0;
+double diff=0;
 
 FillArray(numbers);
 PrintArray(numbers);
 
-int maxIndex=numbers[0];
-int minIndex=numbers[0];
+double maxIndex=numbers[0];
+double minIndex=numbers[0];
 
 
 for(int i=1;i < numbers.Length; i++)
@@ -31,32 +31,22 @@ Console.WriteLine("Разница максимального числа и ми�
 
 
 
-
-
-
-
-
-
-
-
-
-
 int InputInt(string output)
 {
     Console.WriteLine(output);
     return Convert.ToInt32(Console.ReadLine());
 }
 
-void FillArray (int[] array)
+void FillArray (double[] array)
 {
     for(int i=0;i< array.Length; i++)
     {
-        array[i]= new Random().Next(0,10);
+        array[i]= new Random().Next(0,10) + new Random().NextDouble();
     }
 }
 
 
-void PrintArray (int[] array)
+void PrintArray (double[] array)
 {
     for(int i=0;i< array.Length; i++)
     {
